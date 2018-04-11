@@ -790,7 +790,6 @@ describe('ELASTICDUMP', function () {
   })
 
   describe('big int file to es', function () {
-
     it('works', function (done) {
       this.timeout(testTimeout)
       var options = {
